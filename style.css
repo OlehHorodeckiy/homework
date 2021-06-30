@@ -1,0 +1,16 @@
+.block h1{
+    background-color: aqua;
+    text-align: center;
+}
+.block:hover{
+    color: blue;
+}
+.blockli{
+    border: 1px solid #000;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+p{
+    border: 1px solid #000;
+}
