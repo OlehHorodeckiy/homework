@@ -6,11 +6,31 @@
     color: blue;
 }
 .blockli{
+    margin: auto;
     border: 1px solid #000;
     background-color: aquamarine;
     border-radius: 20px;
-    margin-top: -20px;
+   
 }
 p{
+    width: auto;
+    height: auto;
     border: 1px solid #000;
+    margin: auto;
+    border-radius: 10px;
+}
+p:hover{
+    background-color: blueviolet;
+}
+h2{text-align:left;
+border: 1px solid rgb(36, 33, 196);
+}
+
+.text
+{
+    border: 1px  dashed   #000;
+    border-radius: 20px;
+    background-color: darkslategray;
+   margin: auto;
+   
 }
