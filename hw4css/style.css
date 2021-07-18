@@ -45,7 +45,7 @@ display: flex;
     margin-left: 28px;
 }
 .block2{
-    margin: 94px 260px 95px 125px ;
+    margin-top: 90px;
     width: 445px;
 height: 311px;
 }
@@ -59,17 +59,25 @@ main{
     align-items: center;
     justify-content: space-around;
 }
-.block2>h3{
+.block4{
+width: 445px;
+height: 160px;
+margin: 26px 114px 223px 135px;
+}
+.block4>h3{
 font-weight: 600;
 font-size: 36px;
 line-height: 43px;
 color: #000000;
+margin-bottom: 86px;
+
 }
-.block2>p{
+.block4>p{
 font-size: 14px;
 line-height: 140%;
 text-align: justify;
 color: #000000;
+
 
 }
 
