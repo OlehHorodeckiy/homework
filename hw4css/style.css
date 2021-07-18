@@ -1,17 +1,15 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    width: 1440px;
 }
-/*
-===========Header=========
-*/
+
 .block{
     background :#ED4C5C;
     display: flex;
     height: 500px;
-    width: 1440px;
-    border-radius: 0px;
+ border-radius: 0px;
+    width: 100%;
 }
 .block1>h3{
 width: 445px;
@@ -55,11 +53,11 @@ height: 311px;
   content
 =============*/
 main{
-    width: 1440px;
-height: 500px;
-
-display: flex;
-align-items: baseline;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .block2>h3{
 font-weight: 600;
