@@ -35,12 +35,13 @@ margin-left: 240px;
     ;
     font-weight: 800;
 }
-.block_button{
+.block_button>button{
     width: 210px;
     height: 60px;
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-    border-radius: 50px;}
+    border-radius: 50px;
+    text-align: center;}
 
 
 
