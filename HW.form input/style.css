@@ -1,0 +1,60 @@
+body{
+    background-color: #2C2C2C;
+    color: white;
+}
+.table_homework{
+    border-spacing: 0;
+    border: 1px solid grey;
+    border-radius: 15px;
+    max-width: 1320px;
+    height: 300px;
+    width: 100%;
+    margin: 25px auto;
+}
+.table_1{
+    padding: 0 25px;
+    height: 25%;
+    border-bottom: 1px solid grey;
+}
+.theader_name{
+    width: 500px;
+    padding: 20px 0 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #868686;
+}
+ .theaeder_date{
+    width: 500px;
+    padding: 20px 0 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #868686;
+}
+.white_arrow{
+  
+    width: 10px;
+    height: 10px;
+}
+.dots-grey{
+    width: 10px;
+    height: 10px;
+}
+.name_name{
+    width: 500px;
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #868686;
+}
+.row_date{
+    width: 500px;
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #868686
+    ;
+    background-image: url(img/dots-grey.jpg.png)
+  ;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 470px;;
+
+}
