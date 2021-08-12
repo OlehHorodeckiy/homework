@@ -1,0 +1,73 @@
+
+body{
+    width: 100%;
+}
+.section-img{
+    text-align: center;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.navbar-nav{
+    justify-content: flex-end;
+}
+.section-follow>span{
+    margin-right:  26px;
+}
+.section-follow{
+    margin-bottom: 21px;
+}
+.section-information{
+    margin-bottom: 21px;
+}
+.section-information>span{
+    margin-right: 29px;
+}
+.section2{
+    margin-bottom: 56px;
+}
+.section4-img>img{
+    margin-right: 42px;
+}
+.section-name>span{
+    margin-right: 88px;
+    
+}
+.section4{
+    margin-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 32px;
+    row-gap: 20px;
+
+}
+
