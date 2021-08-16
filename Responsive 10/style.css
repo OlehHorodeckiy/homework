@@ -565,21 +565,17 @@ footer{
 }
 .logo_footer{    width: 99px;
     height: 32px;
-    margin-bottom: 3.4375000000000004%;
-
+  
 }
 .nav_footer{
     width: 100%;
-    gap: 0;
-    justify-content: space-between;
-    order: 2;
-    padding-top: 10.625%;
+  
 }
 
 .contact_footer{
     display: flex;
     justify-content: space-between;
-    min-width: 34.0625%;
+    
 
 }
 
