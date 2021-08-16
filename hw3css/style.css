@@ -11,7 +11,6 @@ font-size: 110px;
 line-height: 133px;
 }
 .block_1{
-   
     Width: 1440px;
     Height: 72px;
     display: inline-flex;
@@ -56,16 +55,16 @@ line-height: 133px;
         background: #2B2627;
         display: inline-flex;
        align-items: center;
-       justify-content: center;
+       justify-content:ИДЩ center;
        margin-top: 24px;
     }
     .block_2>p{    
-font-family: 'Inter', sans-serif;
-font-size: 13px;
-line-height: 20px;
-color: #FFFFFF;
-margin-left: 20px;
-margin-right: 20px;
+     font-family: 'Inter', sans-serif;
+     font-size: 13px;
+     line-height: 20px;
+     color: #FFFFFF;
+     margin-left: 20px;
+     margin-right: 20px;
 
     }
     .block_2>img {
