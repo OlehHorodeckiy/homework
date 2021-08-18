@@ -324,16 +324,30 @@ color: #939EA4;
       }
       ul li {
         margin-right: 60px;
+     
       }
+      ul li a{
+          text-decoration: none;
+      }
+
     }
     .foter-img{
         img{
             margin-right: 30px;
         }
     }
-
-
-  
-
-
-  
+    
+        
+    
+    @media(max-width:414px)
+    {
+        .container{margin:0 auto;
+                 margin-bottom: 200px;}
+                 header{
+                     background-image: none;
+                 }
+                 .header-nav{
+                    margin-bottom: 81px;
+                 }
+                 
+        }
