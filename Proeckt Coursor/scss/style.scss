@@ -22,6 +22,7 @@ body{
     
 }
 
+
 .section2{
     
     text-align: center;
@@ -71,7 +72,11 @@ color: #FCF6F2;
 
     .content-section {
         align-items: flex-start;
-
+        a:hover{
+            background: #EE8363;
+            box-shadow: 0px 3px 8px rgba(147, 112, 108, 0.5);
+            border-radius: 2px;
+        }
         @media (max-width: 768px) {
             align-items: center;
             margin-bottom: 40px;
@@ -131,6 +136,12 @@ color: #FCF6F2;
                 color: white;
                 padding: 16px 40px;
             }
+            &:hover {
+                background: #EE8363;
+
+                box-shadow: 0px 3px 8px rgba(147, 112, 108, 0.5);
+                border-radius: 2px;
+            }
 
         }
     }
@@ -189,9 +200,10 @@ color: #FCF6F2;
 }
 .section4{
 height: 200px;
-
 text-align: center;
 margin-top: 89px;
+@media (max-width: 768px) {
+    height: auto;}
 a{
     @include button;
     color: white;
@@ -199,6 +211,17 @@ a{
  width: 144px;
  height: 48px;
  text-decoration: none;
+ &:hover{
+    
+        background: #EE8363;
+        box-shadow: 0px 3px 8px rgba(147, 112, 108, 0.5);
+        border-radius: 2px;
+    
+ }
+ &:focus{
+    background: #F4A892;
+    border-radius: 2px;
+ }
 }
 }
 
@@ -207,6 +230,7 @@ footer{
     
     background: #93706C;
     padding-top: 55px;
+    padding-bottom: 55px;
 
     .nav-link{
     
@@ -215,15 +239,23 @@ footer{
         font-size: 14px;
         line-height: 16px;
         color: #FCF6F2;
+        
         &:hover{
             color:  #FCF6F2;
             font-weight: 600;
             text-decoration: underline
             ;
-        }}
+        }
+        @media (max-width: 768px) {
+            text-align: center;
+ 
+         }}
         .nav-image-foter{
             a{
                 margin-right: 29px;
+                
+               
+            
             }
         }
         .footer-logo{
@@ -237,8 +269,18 @@ footer{
         color: #FCF6F2;
         white-space: pre-line;
         text-decoration: none;
+        @media (max-width: 768px) {
+           justify-content: center;
+           text-align: -webkit-center;
+
+        }
+        
             }
         }
         
 }
+            .nav-image-foter{
+    @media (max-width: 768px) {
+        text-align: center;
+}}
 
