@@ -254,8 +254,7 @@ main {
 }
 @media (max-width: 768px) {
   #pricelist-page .price_list h2 {
-    text-align: end;
-    width: 100%;
+    text-align: center;
   }
 }
 #pricelist-page .checklist {
