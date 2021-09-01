@@ -5,9 +5,10 @@
         font-family: 'Playfair Display', serif;
     }
 
-    height: 1180px;
+
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
     .left-img {
         width: 100%;
     }
@@ -27,7 +28,8 @@ margin-bottom: 80px;
     .contact-text-right{
         display: flex;
         align-items: center;    
-        margin-bottom: 50px;
+        margin-bottom: 44px;
+
         img {
             margin-right: 20px;
         }
@@ -52,7 +54,7 @@ color: #93706C;
     }
 }
 .form-call{
-    height: 578px;
+    
     width: 100%;
 }
 .call-me{
@@ -63,6 +65,7 @@ color: #93706C;
 }
 .btn-send{
     margin-top: 40px;
+    margin-bottom: 20px;
     
     a{  background: #E18A7A;
         border-radius: 2px;

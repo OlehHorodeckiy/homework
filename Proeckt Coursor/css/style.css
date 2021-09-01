@@ -28,9 +28,10 @@
 }
 
 .contact {
-  height: 1180px;
+  
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .contact * {
   font-family: "Playfair Display", serif;
@@ -76,7 +77,7 @@
 }
 
 .form-call {
-  height: 578px;
+  
   width: 100%;
 }
 
@@ -89,6 +90,7 @@
 
 .btn-send {
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 .btn-send a {
   background: #E18A7A;
